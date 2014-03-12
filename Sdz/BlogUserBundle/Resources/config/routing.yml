@@ -1,0 +1,6 @@
+sdz_register:
+    path:     /reg
+    defaults: { _controller: SdzBlogUserBundle:BlogUser:register}
+sdz_login:
+    path:     /auth
+    defaults: { _controller: SdzBlogUserBundle:BlogUser:auth }

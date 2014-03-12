@@ -1,0 +1,21 @@
+{# src/Sdz/ProfileBundle/Resources/views/layout.html.twig  #}
+
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+	<div class="span3" id="menu-profile">
+    	{% block menu %}
+    		{% include "SdzProfileBundle:Menu:menu.html.twig" %}
+    	{% endblock %}
+	</div>
+	<div class="span5">
+    	{% block publication %}
+    		{% include "SdzProfileBundle:Publication:publication.html.twig" %}
+    	{% endblock %}
+    </div>
+    <div class="span3">
+    	{% block menuRight %}
+    		{% include "SdzProfileBundle:Tchat:tchat.html.twig" %}
+    	{% endblock %}
+    </div>
+{% endblock %}

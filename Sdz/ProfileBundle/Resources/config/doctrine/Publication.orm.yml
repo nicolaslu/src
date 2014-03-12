@@ -1,0 +1,18 @@
+Sdz\ProfileBundle\Entity\Publication:
+    type: entity
+    table: null
+    repositoryClass: Sdz\ProfileBundle\Entity\PublicationRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        texte:
+            type: text
+        idUser:
+            type: integer
+        date:
+            type: datetime
+    lifecycleCallbacks: {  }

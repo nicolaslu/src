@@ -1,0 +1,8 @@
+sdz_profile:
+    pattern: /Profile
+    defaults: { _controller: SdzProfileBundle:Profile:index}
+sdz_post:
+    requirements:
+        _method:  POST
+    pattern: /Published
+    defaults: { _controller: SdzProfileBundle:Profile:post}
